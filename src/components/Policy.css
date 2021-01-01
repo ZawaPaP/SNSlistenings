@@ -1,0 +1,23 @@
+
+
+  h1 {
+    text-align: center;
+  }
+  
+  .policy__container {
+    align-items: center; 
+    max-width: 1120px;
+    width: 80%;
+    margin: 50px auto;
+    margin-bottom: 100px;
+  }
+
+  .policy__wrapper {
+  color: #464646;
+  }
+
+  .policy__text__title{
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+    font-size:1.2rem ;
+ }

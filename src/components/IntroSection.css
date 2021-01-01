@@ -1,0 +1,95 @@
+.profile {
+    padding: 1rem;
+    background: #fff;
+    border: none;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  
+  .profile__container {
+    align-items: center; 
+    max-width: 1120px;
+    width: 80%;
+    margin: 50px auto;
+    margin-bottom: 100px;
+  }
+
+  .profile__item {
+    display: flex;
+    flex-direction: row;
+    margin: 0 1rem;
+    border-radius: 10px;
+    justify-content: center; 
+    align-items: center;
+    width:100%;
+    max-width: 85vw;
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
+
+  .profile__icon__img-wrapper {
+    height: 50vh;
+    flex-grow: 3;
+  }
+
+  .profile__icon__img {
+    object-fit: contain;
+    height:100%;
+  }
+
+  .profile__icon__text-wrapper {
+    flex-grow: 1;
+    height: 50vh;
+    max-width:70%; 
+  }
+
+  .profile__icon__header {
+      font-size:1.4rem ;
+  }
+
+  .profile__icon__title{
+    color: #464646;
+  }
+
+  .profile__icon__text {
+    color: #464646;
+  }
+
+
+
+
+  .profile__item__img-wrapper {
+    height: 50vh;
+    flex-grow: 1;
+  }
+
+  .profile__item__img {
+    object-fit: cover;
+
+    height:100%;
+  }
+
+  .profile__item__text-wrapper {
+    flex-grow: 1;
+    height: 50vh;
+  }
+
+  .profile__item__header {
+      font-size:1.4rem ;
+  }
+
+  .profile__item__title{
+    color: #464646;
+  }
+
+  .profile__item__text {
+    color: #464646;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .profile__item {
+      flex-direction: column;
+    }
+}

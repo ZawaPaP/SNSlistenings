@@ -1,0 +1,30 @@
+.forms {
+    padding: 1rem;
+    background: #fff;
+  }
+  
+  .forms h1 {
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .forms p {
+      color:#C0C0C0;
+      text-align: center;
+  }  
+
+
+  .forms__container {
+    display: flex;
+    flex-flow: column;
+    align-items: center; 
+    max-width: 1120px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .forms__wrapper {
+    margin: 50px 0 45px;
+    width: 90%;
+    height: 100%;
+  }
